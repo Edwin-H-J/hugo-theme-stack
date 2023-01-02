@@ -174,11 +174,10 @@ class StackGallery {
     private bindClick() {
         for (const [index, item] of this.items.entries()) {
             const a = item.el.querySelector('a');
-
-            a.addEventListener('click', (e) => {
-                e.preventDefault();
-                this.open(index);
-            })
+            // a.addEventListener('click', (e) => {
+            //     e.preventDefault();
+            //     this.open(index);
+            // })
         }
     }
 }
